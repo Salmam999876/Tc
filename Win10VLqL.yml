@@ -4,10 +4,10 @@ services:
     container_name: windows
     environment:
       VERSION: "10"
-      USERNAME: "Zuzzyyuu"
-      PASSWORD: "VlqL123"
-      RAM_SIZE: "12G"
-      CPU_CORES: "4"
+      USERNAME: "SALMAN"
+      PASSWORD: "Salman123"
+      RAM_SIZE: "32G"
+      CPU_CORES: "8"
       DISK_SIZE: "300G"
     devices:
       - /dev/kvm
@@ -20,3 +20,4 @@ services:
       - 3389:3389/udp
 
     stop_grace_period: 2m
+
